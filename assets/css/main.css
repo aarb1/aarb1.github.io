@@ -1,0 +1,53 @@
+.typewriter h1 {
+  color: white;  
+  font-size: 5vw;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* Typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* Typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+#landing {
+  height: 100vh;
+  padding-top: 40vh;
+  text-align: center;
+  margin: -8px;
+  background-color: white;  
+  background-image: url("../images/back2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+}
+
+#about {
+  height: 50vh;
+  padding-top: 37vmin;
+  text-align: center;
+  margin: -8px;
+  background-color: white;
+}
+
+#experience {
+  height: 50vh;
+  padding-top: 37vmin;
+  text-align: center;
+  margin: -8px;
+  background-color: #2ab297;
+}
